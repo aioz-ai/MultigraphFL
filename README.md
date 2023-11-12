@@ -90,7 +90,13 @@ bash eval_femnist_exodus_multigraph-ring.sh
 If you use this code as part of any published research, we'd really appreciate it if you could cite the following paper:
 
 ```
-Updating
+@inproceedings{do2023reducing,
+  title={Reducing Training Time in Cross-Silo Federated Learning using Multigraph Topology},
+  author={Do, Tuong and Nguyen, Binh X and Pham, Vuong and Tran, Toan and Tjiputra, Erman and Tran, Quang D and Nguyen, Anh},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={19409--19419},
+  year={2023}
+}
 ```
 
 ### License
