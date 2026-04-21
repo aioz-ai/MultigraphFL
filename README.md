@@ -45,7 +45,7 @@ pip install -r requirements.txt
         |    Exodus    |     79    |
         |     Ebone    |     87    |
         
-        We also provide the split FEMNIST dataset for EXODUS network at [link](https://vision.aioz.io/f/bc1b1216cb394ba0997d/?dl=1). You can download and extract them into "data/femnist/exodus" folder.
+        We also provide the split FEMNIST dataset for EXODUS network at [link](https://huggingface.co/datasets/aiozai/MultigraphFL/resolve/main/exodus.zip). You can download and extract them into "data/femnist/exodus" folder.
  * For iNaturalist dataset and Sentiment140 dataset:  please follow the instruction in [here](https://github.com/omarfoq/communication-in-cross-silo-fl)  
 ### Multigraph Networks and Topologies
 
@@ -80,7 +80,7 @@ bash train_femnist_exodus_multigraph-ring.sh
 ```
 
 #### Pretrained models
-We provide the pretrained models which are trained on FEMNIST dataset with EXODUS network by our method at the last epoch. Please download at [link](https://vision.aioz.io/f/3b5515295bd34efd9b6f/?dl=1) and extracted them into the "pretrained_models/FEMNIST_EXODUS_MULTIGRAPH-RING" folder. The models can be evaluted in FEMNIST train and test set via:
+We provide the pretrained models which are trained on FEMNIST dataset with EXODUS network by our method at the last epoch. Please download at [link](https://huggingface.co/aiozai/MultigraphFL/resolve/main/FEMNIST_EXODUS_MULTIGRAPH-RING.zip) and extracted them into the "pretrained_models/FEMNIST_EXODUS_MULTIGRAPH-RING" folder. The models can be evaluted in FEMNIST train and test set via:
 ```
 bash eval_femnist_exodus_multigraph-ring.sh 
 ```
